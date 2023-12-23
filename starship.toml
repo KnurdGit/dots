@@ -1,0 +1,171 @@
+## Prompt
+add_newline = false
+#right_format = """$time"""
+
+[character]
+success_symbol = "[➜](green)"
+error_symbol = "[➜](red)"
+
+[cmd_duration]
+disabled = false
+
+[python]
+symbol = "python "
+style = "green bold"
+
+[ruby]
+disabled = true
+symbol = "ruby "
+style = "red bold"
+
+[golang]
+symbol = "go "
+style = "white bold"
+
+[git_branch]
+symbol = ""
+format = "[$symbol$branch]($style) "
+
+[helm]
+format = "[helm $version]($style)"
+style = "bold purple"
+
+[directory]
+fish_style_pwd_dir_length = 1
+style = "cyan"
+
+[vagrant]
+disabled = true
+version_format = "${raw}"
+format = "[vagrant $version](bold blue) "
+
+[package]
+disabled = true
+
+[aws]
+disabled = true
+add_newline = false
+
+[cmake]
+disabled = true
+
+[conda]
+disabled = true
+
+[crystal]
+disabled = true
+
+[dart]
+disabled = true
+
+[deno]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[env_var]
+disabled = true
+
+[erlang]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[java]
+disabled = true
+
+[julia]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[lua]
+disabled = true
+
+[hg_branch]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[openstack]
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[purescript]
+disabled = true
+
+[red]
+disabled = true
+
+[rust]
+disabled = true
+
+[scala]
+disabled = true
+
+[shell]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[singularity]
+disabled = true
+
+[swift]
+disabled = true
+
+[terraform]
+disabled = true
+
+[vlang]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[zig]
+disabled = true
+
+[time]
+disabled = true
+style="dimmed white"
+format = "[$time]($style) "
+
+[battery]
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[[battery.display]]
+threshold = 10
+style = "bold red"
